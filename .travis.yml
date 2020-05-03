@@ -4,11 +4,3 @@ python:
 script:
 	- python3 blackjack_unittest.py
 	- python3 blackjack_integrationtest.py 
-deploy:
-	provider: pages
-	skip_cleanup: true
-	github_token: $github_token
-	local_dir: build
-	on:
-		branch: master
-	
