@@ -12,6 +12,6 @@ deploy:
   - blackjack.py
  on:
   repo: chriseichstedt/CS491Eichstedt
-  tags: true
+  tags: false
 
 	
