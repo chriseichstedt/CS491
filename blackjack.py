@@ -1,6 +1,7 @@
 #Homework 2, CS-491, Christopher Eichstedt
 #Code is implemented using a tutorial, listed as resource.
 #Resource: https://medium.com/@samarakoon.gayan/a-game-of-black-jack-on-python-as-a-fun-exercise-3cd54efb9d83
+#test
 
 import deck as user_deck
 import hand as user_hand
