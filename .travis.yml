@@ -5,15 +5,10 @@ script:
 	- python3 blackjack_unittest.py 
 	- python3 blackjack_integrationtest.py
 deploy:
-	provider: releases
-	api_key: "GITHUB OAUTH TOKEN"
-        file:
-		-blackjack.py
-		-card.py
-		-deck.py
-		-hand.py
+	provider: pages
 	skip_cleanup: true
+	github_token: $github_token
+	local_dir: build
 	on:
-		tags: true
-
+		branch: master
 	
