@@ -11,8 +11,6 @@ deploy:
  on:
   repo: chriseichstedt/CS491Eichstedt
   tags: true
- branches:
-  only:
-   - master
+  all_branches: true
 
 	
