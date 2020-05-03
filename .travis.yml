@@ -8,10 +8,7 @@ deploy:
  provider: releases
  skip_cleanup: true
  github_token: $github_token
- file:
-  - blackjack.py
  on:
-  repo: chriseichstedt/CS491Eichstedt
-  tags: false
+  tags: true
 
 	
