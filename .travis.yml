@@ -5,7 +5,8 @@ script:
  - python3 blackjack_unittest.py
  - python3 blackjack_integrationtest.py
 deploy:
+ provider: releases
  skip_cleanup: true
  github_token: $github_token
  on:
-  branch: release
+  all_branches: true
