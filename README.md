@@ -1,1 +1,1 @@
-# CS 491: Testing and DevOps - Spring, 2020
+# CS 491: Testing and DevOps - Spring 2020
