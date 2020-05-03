@@ -1,5 +1,3 @@
 language: python
-python:
-  - 3
 script:
   - python3 blackjack_unittest.py blackjack_integrationtest.py
