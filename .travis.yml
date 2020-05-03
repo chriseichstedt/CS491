@@ -5,11 +5,13 @@ script:
  - python3 blackjack_unittest.py
  - python3 blackjack_integrationtest.py
 deploy:
- provider: pages
+ provider: releases
  skip_cleanup: true
  github_token: $github_token
- local_dir: build
+ file:
+  - blackjack.py
  on:
-  branch: master
+  repo: https://github.com/chriseichstedt/CS491Eichstedt
+  tags: true
 
 	
