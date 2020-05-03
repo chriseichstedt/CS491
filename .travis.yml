@@ -3,7 +3,6 @@ python:
 	- 3.6
 script:
 	- python3 blackjack_unittest.py 
-	- python3 blackjack_integrationtest.py
 deploy:
 	provider: pages
 	skip_cleanup: true
