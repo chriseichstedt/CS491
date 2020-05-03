@@ -1,0 +1,5 @@
+language: python
+python:
+  - "3.0"
+script:
+  - python blackjack_unittest.py blackjack_integrationtest.py
